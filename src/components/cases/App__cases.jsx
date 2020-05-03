@@ -8,7 +8,7 @@ import App__case from "../case/App__case"
 import '@brainhubeu/react-carousel/lib/style.css'
 import App__carousel_btn from "../ui/btn/carousel_btn/App__carousel_btn";
 
-const App__cases = () => {
+const App__cases = props => {
 
     const [ value, setValue ] = useState( 0 )
 
@@ -102,9 +102,9 @@ const App__cases = () => {
             </div>
 
             <div className={ s.cases + ' ' + s.standart } >
-                <App__case title='Стандартный кейс' price='29 990 руб' description={ standart } />
-                <App__case title='Премиум кейс' price='59 990 руб' description={ premium } />
-                <App__case title='Профессиональный кейс' price='99 990 руб' description={ profesion } />
+                <App__case click={ props.click } title='Стандартный кейс' price='29 990 руб' description={ standart } />
+                <App__case click={ props.click } title='Премиум кейс' price='59 990 руб' description={ premium } />
+                <App__case click={ props.click } title='Профессиональный кейс' price='99 990 руб' description={ profesion } />
             </div>
 
             <div className={ s.carousel } >
@@ -119,13 +119,13 @@ const App__cases = () => {
                     onChange={ change }
                     slides={[
                         (
-                            <App__case title='Стандартный кейс' price='29 990 руб' description={ standart } />
+                            <App__case click={ props.click } title='Стандартный кейс' price='29 990 руб' description={ standart } />
                         ),
                         (
-                            <App__case title='Премиум кейс' price='59 990 руб' description={ premium } />
+                            <App__case click={ props.click } title='Премиум кейс' price='59 990 руб' description={ premium } />
                         ),
                         (
-                            <App__case title='Профессиональный кейс' price='99 990 руб' description={ profesion } />
+                            <App__case click={ props.click } title='Профессиональный кейс' price='99 990 руб' description={ profesion } />
                         ),
 
                     ]}
@@ -152,13 +152,13 @@ const App__cases = () => {
                     onChange={ change }
                     slides={[
                         (
-                            <App__case title='Стандартный кейс' price='29 990 руб' description={ standart } />
+                            <App__case click={ props.click } title='Стандартный кейс' price='29 990 руб' description={ standart } />
                         ),
                         (
-                            <App__case title='Премиум кейс' price='59 990 руб' description={ premium } />
+                            <App__case click={ props.click } title='Премиум кейс' price='59 990 руб' description={ premium } />
                         ),
                         (
-                            <App__case title='Профессиональный кейс' price='99 990 руб' description={ profesion } />
+                            <App__case click={ props.click } title='Профессиональный кейс' price='99 990 руб' description={ profesion } />
                         ),
 
                     ]}

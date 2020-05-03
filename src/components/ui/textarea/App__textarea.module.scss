@@ -1,0 +1,27 @@
+.textarea {
+  width: 309px;
+  height: 160px;
+  padding: 14px 17px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B1B1B1;
+  border-radius: 2px;
+}
+
+@media screen and ( max-width: 360px ) {
+  .textarea {
+    width: 230px;
+    padding: 13px 12px;
+
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.error .textarea {
+  border: 2px solid #C84141;
+  background-color: rgba(0, 0, 0, 0);
+}

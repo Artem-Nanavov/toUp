@@ -115,3 +115,11 @@
   -ms-overflow: $option;
   overflow: $option;
 }
+
+@mixin grid-column-gap( $option ) {
+  -webkit-grid-column-gap: $option;
+  -moz-grid-column-gap: $option;
+  -o-grid-column-gap: $option;
+  -ms-grid-column-gap: $option;
+  grid-column-gap: $option;
+}

@@ -1,0 +1,39 @@
+.wrap, .error {
+  width: 309px;
+  height: 42px;
+}
+
+input {
+  width: 309px;
+  height: 42px;
+  padding: 13px 0;
+  padding-left: 21px;
+  border-radius: 2px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+@media screen and ( max-width: 360px ) {
+  .wrap {
+    width: 230px;
+  }
+
+  input {
+    width: 230px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 11px 0;
+    padding-left: 15px;
+  }
+}
+
+// error
+
+.error input {
+  border: 2px solid #C84141;
+  background-color: rgba(0, 0, 0, 0);
+}

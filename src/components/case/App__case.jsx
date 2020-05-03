@@ -24,7 +24,7 @@ const App__case = props => {
                     </div>
                 </div>
 
-                <div className={ s.down_bar } >
+                <div className={ s.down_bar } onClick={ props.click } >
                     <div className={ s.icon } >
 
                         <svg className={ s.width_560 } width='137px' height='42px' viewBox="0 0 231 58" fill="none">
