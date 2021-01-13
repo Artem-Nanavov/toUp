@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/toUp/static/css/main.a2a28887.chunk.css",
+    "main.js": "/toUp/static/js/main.6c51655f.chunk.js",
+    "main.js.map": "/toUp/static/js/main.6c51655f.chunk.js.map",
+    "runtime-main.js": "/toUp/static/js/runtime-main.6aedf1ab.js",
+    "runtime-main.js.map": "/toUp/static/js/runtime-main.6aedf1ab.js.map",
+    "static/css/2.2d12201f.chunk.css": "/toUp/static/css/2.2d12201f.chunk.css",
+    "static/js/2.94f0a39b.chunk.js": "/toUp/static/js/2.94f0a39b.chunk.js",
+    "static/js/2.94f0a39b.chunk.js.map": "/toUp/static/js/2.94f0a39b.chunk.js.map",
+    "index.html": "/toUp/index.html",
+    "precache-manifest.05650702ef158fa7da33bc25a47d5f90.js": "/toUp/precache-manifest.05650702ef158fa7da33bc25a47d5f90.js",
+    "service-worker.js": "/toUp/service-worker.js",
+    "static/css/2.2d12201f.chunk.css.map": "/toUp/static/css/2.2d12201f.chunk.css.map",
+    "static/css/main.a2a28887.chunk.css.map": "/toUp/static/css/main.a2a28887.chunk.css.map",
+    "static/js/2.94f0a39b.chunk.js.LICENSE.txt": "/toUp/static/js/2.94f0a39b.chunk.js.LICENSE.txt",
+    "static/media/Mask Group.jpg": "/toUp/static/media/Mask Group.ce5e9ea1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6aedf1ab.js",
+    "static/css/2.2d12201f.chunk.css",
+    "static/js/2.94f0a39b.chunk.js",
+    "static/css/main.a2a28887.chunk.css",
+    "static/js/main.6c51655f.chunk.js"
+  ]
+}
